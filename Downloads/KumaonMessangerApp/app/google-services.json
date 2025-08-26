@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "351734535301",
+    "firebase_url": "https://kumaon-messenger-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "kumaon-messenger",
+    "storage_bucket": "kumaon-messenger.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:351734535301:android:91b155e61cc54aef2545ec",
+        "android_client_info": {
+          "package_name": "com.luvdumka.kumaonmessenger"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAp2cTb9JHKr9P0if9nHm_oLCRzSCDf06k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
