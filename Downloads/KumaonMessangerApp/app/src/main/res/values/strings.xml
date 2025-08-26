@@ -1,8 +1,8 @@
 <resources>
-    <string name="app_name">Kumaon Messenger</string>
+    <string name="app_name">KumaonMessenger</string>
     
     <!-- Authentication -->
-    <string name="welcome_message">Welcome to Kumaon Messenger</string>
+    <string name="welcome_message">Welcome to KumaonMessenger</string>
     <string name="login">Login</string>
     <string name="signup">Sign Up</string>
     <string name="email">Email</string>
