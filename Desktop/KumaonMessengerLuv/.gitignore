@@ -44,3 +44,61 @@ caches/
 .gradle/
 .idea/caches/
 *.lock
+
+# Downloads folder - should never be tracked
+../../Downloads/
+Downloads/
+
+# System directories and files
+AppData/
+Application Data/
+Cookies/
+Local Settings/
+My Documents/
+NetHood/
+PrintHood/
+Recent/
+SendTo/
+Start Menu/
+Templates/
+
+# Windows system files
+desktop.ini
+NTUSER.DAT*
+ntuser.dat*
+ntuser.ini
+
+# Temporary files
+*.tmp
+*.temp
+~$*
+~WRL*.tmp
+
+# Java compiled files
+*.class
+
+# IDE and editor files
+.vscode/
+.cursor/
+*.swp
+*.swo
+
+# Package files
+*.jar
+*.zip
+*.rar
+*.7z
+
+# Executable files
+*.exe
+*.msi
+*.bat
+*.cmd
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Firebase config (if not needed in repo)
+# google-services.json
