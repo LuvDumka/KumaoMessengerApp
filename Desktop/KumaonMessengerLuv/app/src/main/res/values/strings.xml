@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kumaon Messenger</string>
+    <string name="main_activity_title">Kumaon Messenger</string>
+    <string name="hint_type_message">Type a message...</string>
+    <string name="send">Send</string>
+    <string name="back">Back</string>
+    <string name="last_seen_recently">Last seen recently</string>
+    <string name="online">Online</string>
+    <string name="connecting">Connecting...</string>
+    <string name="no_internet">No internet connection</string>
+</resources>
