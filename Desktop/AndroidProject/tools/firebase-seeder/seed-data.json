@@ -1,0 +1,272 @@
+{
+  "firestore": {
+    "mentors": [
+      {
+        "id": "mentor_jane_ds",
+        "name": "Dr. Jane Patel",
+        "expertise": "Data Science",
+        "bio": "Former Google data scientist mentoring grads.",
+        "avatarUrl": "",
+        "experience": "7 years",
+        "rating": 4.8,
+        "hourlyRate": 1800,
+        "skills": ["Python", "TensorFlow", "MLOps"],
+        "languages": ["English", "Hindi"]
+      },
+      {
+        "id": "mentor_rahul_ui",
+        "name": "Rahul Mehta",
+        "expertise": "UI/UX Design",
+        "bio": "Lead product designer helping engineers level up UI craft.",
+        "avatarUrl": "",
+        "experience": "9 years",
+        "rating": 4.6,
+        "hourlyRate": 1500,
+        "skills": ["Figma", "Design Systems", "Accessibility"],
+        "languages": ["English"]
+      }
+    ],
+    "users": [
+      {
+        "id": "mentor_jane_ds",
+        "uid": "mentor_jane_ds",
+        "name": "Dr. Jane Patel",
+        "email": "jane@example.com",
+        "education": "M.S. Data Science",
+        "interest": "Career coaching",
+        "mentorExpertise": "Data Science",
+        "mentorExperience": "7 years",
+        "mentorRate": "1800",
+        "role": "MENTOR",
+        "profileCompleted": true
+      },
+      {
+        "id": "mentor_rahul_ui",
+        "uid": "mentor_rahul_ui",
+        "name": "Rahul Mehta",
+        "email": "rahul@example.com",
+        "education": "B.Des Interaction Design",
+        "interest": "Design leadership",
+        "mentorExpertise": "UI/UX Design",
+        "mentorExperience": "9 years",
+        "mentorRate": "1500",
+        "role": "MENTOR",
+        "profileCompleted": true
+      },
+      {
+        "id": "student_steve",
+        "uid": "student_steve",
+        "name": "Steve Lee",
+        "email": "steve@example.com",
+        "education": "B.Tech CSE",
+        "interest": "Product management",
+        "mentorExpertise": "",
+        "mentorExperience": "",
+        "mentorRate": "",
+        "role": "STUDENT",
+        "profileCompleted": true
+      },
+      {
+        "id": "student_ayesha",
+        "uid": "student_ayesha",
+        "name": "Ayesha Khan",
+        "email": "ayesha@example.com",
+        "education": "MCA",
+        "interest": "UI/UX",
+        "mentorExpertise": "",
+        "mentorExperience": "",
+        "mentorRate": "",
+        "role": "STUDENT",
+        "profileCompleted": true
+      }
+    ],
+    "timeSlots": [
+      {
+        "id": "slot_jane_2025-11-27-0900",
+        "mentorId": "mentor_jane_ds",
+        "date": "2025-11-27",
+        "startTime": "09:00 AM",
+        "endTime": "09:30 AM",
+        "status": "AVAILABLE",
+        "price": 1800,
+        "bookedByUserId": "",
+        "bookedByUserName": "",
+        "bookedAt": 0,
+        "studentMessage": ""
+      },
+      {
+        "id": "slot_jane_2025-11-27-1000",
+        "mentorId": "mentor_jane_ds",
+        "date": "2025-11-27",
+        "startTime": "10:00 AM",
+        "endTime": "10:30 AM",
+        "status": "BOOKED",
+        "price": 1800,
+        "bookedByUserId": "student_steve",
+        "bookedByUserName": "Steve Lee",
+        "bookedAt": 1732448400000,
+        "studentMessage": "Resume review"
+      },
+      {
+        "id": "slot_jane_2025-11-28-1830",
+        "mentorId": "mentor_jane_ds",
+        "date": "2025-11-28",
+        "startTime": "06:30 PM",
+        "endTime": "07:00 PM",
+        "status": "AVAILABLE",
+        "price": 1800,
+        "bookedByUserId": "",
+        "bookedByUserName": "",
+        "bookedAt": 0,
+        "studentMessage": ""
+      },
+      {
+        "id": "slot_rahul_2025-11-27-1500",
+        "mentorId": "mentor_rahul_ui",
+        "date": "2025-11-27",
+        "startTime": "03:00 PM",
+        "endTime": "03:45 PM",
+        "status": "AVAILABLE",
+        "price": 1500,
+        "bookedByUserId": "",
+        "bookedByUserName": "",
+        "bookedAt": 0,
+        "studentMessage": ""
+      },
+      {
+        "id": "slot_rahul_2025-11-28-1100",
+        "mentorId": "mentor_rahul_ui",
+        "date": "2025-11-28",
+        "startTime": "11:00 AM",
+        "endTime": "11:45 AM",
+        "status": "BOOKED",
+        "price": 1500,
+        "bookedByUserId": "student_ayesha",
+        "bookedByUserName": "Ayesha Khan",
+        "bookedAt": 1732527600000,
+        "studentMessage": "Portfolio critique"
+      }
+    ],
+    "videoCallSessions": [
+      {
+        "id": "sess_jane_steve_2025-11-27",
+        "slotId": "slot_jane_2025-11-27-1000",
+        "hostUserId": "mentor_jane_ds",
+        "guestUserId": "student_steve",
+        "channelName": "mentor_jane_ds_student_steve",
+        "startTime": 1764221400000,
+        "endTime": 1764223200000,
+        "status": "ACTIVE"
+      },
+      {
+        "id": "sess_rahul_ayesha_2025-11-28",
+        "slotId": "slot_rahul_2025-11-28-1100",
+        "hostUserId": "mentor_rahul_ui",
+        "guestUserId": "student_ayesha",
+        "channelName": "mentor_rahul_ui_student_ayesha",
+        "startTime": 1764307800000,
+        "endTime": 1764310500000,
+        "status": "PENDING"
+      }
+    ]
+  },
+  "realtime": {
+    "messages": [
+      {
+        "conversationId": "mentor_jane_ds_student_steve",
+        "messages": [
+          {
+            "id": "msg1",
+            "senderId": "student_steve",
+            "senderName": "Steve Lee",
+            "receiverId": "mentor_jane_ds",
+            "message": "Hi Dr. Jane, excited for the session!",
+            "timestamp": 1732362000000,
+            "type": "TEXT",
+            "imageUrl": "",
+            "isRead": true
+          },
+          {
+            "id": "msg2",
+            "senderId": "mentor_jane_ds",
+            "senderName": "Dr. Jane Patel",
+            "receiverId": "student_steve",
+            "message": "Looking forward to it. Bring your latest resume.",
+            "timestamp": 1732365600000,
+            "type": "TEXT",
+            "imageUrl": "",
+            "isRead": false
+          }
+        ]
+      }
+    ],
+    "chatThreads": [
+      {
+        "userId": "mentor_jane_ds",
+        "threads": [
+          {
+            "conversationId": "mentor_jane_ds_student_steve",
+            "otherUserId": "student_steve",
+            "otherUserName": "Steve Lee",
+            "lastMessage": "Looking forward to it. Bring your latest resume.",
+            "lastMessageTimestamp": 1732365600000,
+            "unreadCount": 0
+          }
+        ]
+      },
+      {
+        "userId": "student_steve",
+        "threads": [
+          {
+            "conversationId": "mentor_jane_ds_student_steve",
+            "otherUserId": "mentor_jane_ds",
+            "otherUserName": "Dr. Jane Patel",
+            "lastMessage": "Looking forward to it. Bring your latest resume.",
+            "lastMessageTimestamp": 1732365600000,
+            "unreadCount": 1
+          }
+        ]
+      }
+    ]
+  },
+  "auth": {
+    "users": [
+      {
+        "uid": "mentor_jane_ds",
+        "email": "jane@example.com",
+        "password": "Mentor@123",
+        "displayName": "Dr. Jane Patel",
+        "phoneNumber": "+11234567890",
+        "photoURL": "",
+        "disabled": false
+      },
+      {
+        "uid": "mentor_rahul_ui",
+        "email": "rahul@example.com",
+        "password": "Mentor@123",
+        "displayName": "Rahul Mehta",
+        "phoneNumber": "+11234567891",
+        "photoURL": "",
+        "disabled": false
+      },
+      {
+        "uid": "student_steve",
+        "email": "steve@example.com",
+        "password": "Student@123",
+        "displayName": "Steve Lee",
+        "phoneNumber": "+11234567892",
+        "photoURL": "",
+        "disabled": false
+      },
+      {
+        "uid": "student_ayesha",
+        "email": "ayesha@example.com",
+        "password": "Student@123",
+        "displayName": "Ayesha Khan",
+        "phoneNumber": "+11234567893",
+        "photoURL": "",
+        "disabled": false
+      }
+    ]
+  }
+}

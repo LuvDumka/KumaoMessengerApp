@@ -1,0 +1,23 @@
+{
+  "name": "mentorconnect-firebase-seeder",
+  "version": "1.0.0",
+  "description": "Utility scripts for seeding MentorConnect Firestore and Realtime Database data.",
+  "main": "seed.js",
+  "scripts": {
+    "seed": "node seed.js",
+    "seed:reset": "node seed.js --reset",
+    "seed:auth": "node seed-auth.js",
+    "seed:auth:reset": "node seed-auth.js --reset"
+  },
+  "keywords": [
+    "firebase",
+    "firestore",
+    "realtime-database",
+    "seeding"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "firebase-admin": "^12.5.0"
+  }
+}

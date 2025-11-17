@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="md_theme_light_primary">#1E88E5</color>
+    <color name="md_theme_light_onPrimary">#FFFFFF</color>
+    <color name="md_theme_light_secondary">#039BE5</color>
+    <color name="md_theme_light_secondaryContainer">#D6E4FF</color>
+    <color name="md_theme_light_background">#F5F9FF</color>
+    <color name="md_theme_light_surface">#FFFFFF</color>
+    <color name="md_theme_light_onSurface">#1A2634</color>
+    <color name="md_theme_light_onSurfaceVariant">#4B5A6E</color>
+    <color name="md_theme_light_surfaceVariant">#E4E9F3</color>
+    <color name="md_theme_light_outlineVariant">#C8D0DD</color>
+    <color name="md_theme_light_error">#D32F2F</color>
+
+    <color name="md_theme_dark_primary">#90CAF9</color>
+    <color name="md_theme_dark_onPrimary">#0D1B2A</color>
+    <color name="md_theme_dark_secondary">#42A5F5</color>
+    <color name="md_theme_dark_background">#0D1B2A</color>
+    <color name="md_theme_dark_surface">#102542</color>
+    <color name="md_theme_dark_onSurface">#E6F1FF</color>
+    <color name="md_theme_dark_error">#EF9A9A</color>
+
+    <color name="splash_gradient_start">#1976D2</color>
+    <color name="splash_gradient_end">#42A5F5</color>
+    <color name="mentor_card_bg">#F0F4FF</color>
+    
+    <!-- Slot Status Colors -->
+    <color name="green_light">#E8F5E9</color>
+    <color name="green_dark">#2E7D32</color>
+    <color name="red_light">#FFEBEE</color>
+    <color name="red_dark">#C62828</color>
+    <color name="gray_light">#F5F5F5</color>
+    <color name="gray_dark">#757575</color>
+    <color name="gray">#9E9E9E</color>
+    <color name="black">#000000</color>
+
+    <!-- HelpMentorSelection -->
+    <color name="bot_bubble_bg">#E3F2FD</color>
+    <color name="user_bubble_bg">#1E88E5</color>
+    <color name="user_bubble_text">#FFFFFF</color>
+</resources>

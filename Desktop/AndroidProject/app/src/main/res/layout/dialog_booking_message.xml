@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingHorizontal="20dp"
+    android:paddingTop="8dp"
+    android:paddingBottom="4dp">
+
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.Material3.BodyMedium"
+        android:textColor="@color/md_theme_light_onSurfaceVariant"
+        android:text="@string/booking_message_body"
+        android:paddingBottom="8dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/inputLayoutMessage"
+        style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        app:boxCornerRadiusTopStart="14dp"
+        app:boxCornerRadiusTopEnd="14dp"
+        app:boxCornerRadiusBottomStart="14dp"
+        app:boxCornerRadiusBottomEnd="14dp"
+        app:boxStrokeColor="@color/md_theme_light_primary"
+        app:hintEnabled="true"
+        app:hintAnimationEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editTextMessage"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:gravity="start|top"
+            android:inputType="textCapSentences|textMultiLine"
+            android:hint="@string/booking_message_hint"
+            android:maxLines="5"
+            android:minLines="3"
+            android:padding="12dp"
+            android:overScrollMode="never" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+</LinearLayout>

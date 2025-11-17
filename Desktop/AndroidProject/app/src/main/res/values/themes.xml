@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.MentorConnect" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/md_theme_light_primary</item>
+        <item name="colorPrimaryVariant">@color/md_theme_light_primary</item>
+        <item name="colorOnPrimary">@color/md_theme_light_onPrimary</item>
+        <item name="colorSecondary">@color/md_theme_light_secondary</item>
+        <item name="colorOnSecondary">@color/md_theme_light_onPrimary</item>
+        <item name="android:statusBarColor">@color/md_theme_light_primary</item>
+        <item name="android:navigationBarColor">@color/md_theme_light_primary</item>
+        <item name="android:windowBackground">@color/md_theme_light_background</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+
+    <style name="Theme.MentorConnect.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@drawable/splash_background</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/logo</item>
+        <item name="postSplashScreenTheme">@style/Theme.MentorConnect</item>
+        <item name="windowSplashScreenAnimationDuration">300</item>
+    </style>
+</resources>

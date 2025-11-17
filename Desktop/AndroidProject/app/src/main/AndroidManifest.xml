@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:name=".MentorApp"
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="MentorConnect"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MentorConnect">
+
+        <activity
+            android:name="com.example.mentorconnect.ui.splash.SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.MentorConnect.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.mentorconnect.ui.auth.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.mentorconnect.ui.auth.SignupActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.mentorconnect.ui.helpbot.HelpMentorSelectionActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.mentorconnect.ui.main.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.mentorconnect.ui.booking.MentorDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.mentorconnect.ui.chat.ChatActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.mentorconnect.ui.videocall.VideoCallActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|screenSize|keyboardHidden" />
+        <activity
+            android:name="com.example.mentorconnect.ui.mentor.MentorProfileSetupActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.mentorconnect.ui.mentor.MentorDashboardActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

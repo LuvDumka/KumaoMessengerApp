@@ -1,0 +1,57 @@
+# Built application files
+*.apk
+*.ap_
+*.aab
+
+# Files for the ART/Dalvik VM
+*.dex
+
+# Java class files
+*.class
+
+# Generated files
+bin/
+gen/
+out/
+build/
+.gradle/
+gradle-app.setting
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Android Studio
+.idea/
+*.iml
+.navigation/
+captures/
+output.json
+
+# NDK
+obj/
+
+# IntelliJ IDEA
+*.iws
+/out/
+
+# Gradle files
+.gradle/
+gradle/
+gradlew
+gradlew.bat
+
+# Log Files
+*.log
+
+# OSX Files
+.DS_Store
+
+# Node modules for Firebase seeder
+tools/firebase-seeder/node_modules/
+tools/firebase-seeder/package-lock.json
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*~

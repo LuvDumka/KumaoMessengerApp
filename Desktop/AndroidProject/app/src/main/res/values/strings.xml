@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MentorConnect</string>
+    <string name="login_title">Welcome Back</string>
+    <string name="login_subtitle">Continue your growth journey</string>
+    <string name="hint_email">Email address</string>
+    <string name="hint_password">Password</string>
+    <string name="action_login">Log In</string>
+    <string name="action_signup">Sign Up</string>
+    <string name="action_logout">Log Out</string>
+    <string name="signup_title">Create Account</string>
+    <string name="signup_subtitle">Meet mentors aligned with your goals</string>
+    <string name="hint_name">Full name</string>
+    <string name="hint_education">Current education</string>
+    <string name="hint_interest">Interest area</string>
+    <string name="label_no_account">Need an account?</string>
+    <string name="label_have_account">Already registered?</string>
+    <string name="label_discover_mentors">Discover mentors</string>
+    <string name="label_settings">Settings</string>
+    <string name="label_profile">Profile</string>
+    <string name="label_theme">Dark theme</string>
+    <string name="label_notifications">Session reminders</string>
+    <string name="label_edit_profile">Edit profile</string>
+    <string name="label_logout">Sign out</string>
+    <string name="label_splash_tagline">Mentorship that meets you where you are</string>
+    <string name="label_continue">Continue</string>
+    <string name="label_loading">Loading...</string>
+    <string name="error_auth_required">Please sign in to continue.</string>
+    <string name="label_mentors">Featured Mentors</string>
+    <string name="label_profile_details">Your profile</string>
+    <string name="error_generic">Something went wrong. Please try again.</string>
+    <string name="placeholder_not_updated">Not updated</string>
+    
+    <!-- Settings Strings -->
+    <string name="label_appearance">Appearance</string>
+    <string name="label_theme_description">Choose your preferred theme</string>
+    <string name="label_light_theme">Light Mode</string>
+    <string name="label_dark_theme">Dark Mode</string>
+    <string name="label_enable_notifications">Enable Notifications</string>
+    <string name="label_switch_on">On</string>
+    <string name="label_switch_off">Off</string>
+    <string name="label_account">Account</string>
+    <string name="hint_expertise">Expertise area</string>
+    <string name="hint_experience_years">Years of experience</string>
+    <string name="hint_pricing">Hourly rate (USD)</string>
+    <string name="role_student_description">Students discover mentors and track their learning journey.</string>
+    <string name="role_mentor_description">Mentors manage mentee chats, host video calls, and grow their practice.</string>
+    <string name="label_expertise">Expertise</string>
+    <string name="label_experience">Experience</string>
+    <string name="label_pricing">Pricing</string>
+    <string name="format_rate_per_hour">$%1$.2f / hr</string>
+    <string name="mentor_dashboard_title">Mentor Hub</string>
+    <string name="mentor_tab_chats">Chats</string>
+    <string name="mentor_tab_video">Video Calls</string>
+    <string name="action_settings">Settings</string>
+    <string name="mentor_chat_empty_state">No student chats yet. When someone messages you, the conversation will show up here.</string>
+    <string name="mentor_sessions_empty_state">No students have booked a session yet. As soon as a slot is booked, it will show up here.</string>
+    <string name="mentor_incoming_calls_empty_state">No live calls right now. When a student rings you, the request will show up here.</string>
+    
+    <!-- Booking Strings -->
+    <string name="back">Back</string>
+    <string name="mentor_image">Mentor Image</string>
+    <string name="chat">Chat</string>
+    <string name="about">About</string>
+    <string name="experience">Experience:</string>
+    <string name="rating">Rating:</string>
+    <string name="price_per_session">Price:</string>
+    <string name="price_per_hour_value">$%1$d/hour</string>
+    <string name="select_date">Select Date</string>
+    <string name="available_slots">Available Time Slots</string>
+    <string name="select_date_to_view_slots">Select a date to view available slots</string>
+    <string name="start_video_call">Start Video Call</string>
+    <string name="connect_with_mentor">Connect with Mentor</string>
+    <string name="start_video_call_description">Start an instant video call with this mentor. Make sure you have a stable internet connection.</string>
+    <string name="book_slot">Book Slot</string>
+    <string name="slot_booked">Slot booked successfully!</string>
+    <string name="slot_booking_failed">Failed to book slot</string>
+    <string name="booking_message_title">Personalize your session</string>
+    <string name="booking_message_body">Let your mentor know the topics or problems you want to focus on so they can prepare ahead of time.</string>
+    <string name="booking_message_hint">e.g. Data Structures mock interview, portfolio review, resume feedback</string>
+    <string name="student_message_required">Please share a short note about what you would like to cover.</string>
+    <string name="student_message_empty_fallback">No session notes from the student.</string>
+    <string name="student_message_label">Student requirements</string>
+    
+    <!-- Chat Strings -->
+    <string name="user_image">User Image</string>
+    <string name="video_call">Video Call</string>
+    <string name="type_message">Type a message...</string>
+    <string name="send_message">Send Message</string>
+    <string name="message_sent">Message sent</string>
+    <string name="message_failed">Failed to send message</string>
+    
+    <!-- Video Call Strings -->
+    <string name="calling">Calling...</string>
+    <string name="end_call">End Call</string>
+    <string name="join_call">Join</string>
+    <string name="incoming_calls">Incoming Calls</string>
+    <string name="student_placeholder">Student</string>
+    <string name="mute_audio">Mute</string>
+    <string name="unmute_audio">Unmute</string>
+    <string name="disable_video">Disable Video</string>
+    <string name="enable_video">Enable Video</string>
+    <string name="switch_camera">Switch Camera</string>
+    
+    <!-- Slot Status -->
+    <string name="status_available">Available</string>
+    <string name="status_booked">Booked</string>
+    <string name="status_completed">Completed</string>
+    <string name="status_cancelled">Cancelled</string>
+    
+    <!-- Video Call Additional -->
+    <string name="connecting">Connecting...</string>
+    <string name="call_locked">Video call is locked. Available only during your booked slot time.</string>
+    <string name="call_not_time">Call will be available at your scheduled time</string>
+    <string name="call_ended_time">Call time has ended</string>
+
+    <!-- HelpMentorSelection Strings -->
+    <string name="help_mentor_selection_title">helpMentorSelection</string>
+    <string name="help_mentor_selection_subtitle">Tell me what you need and I’ll suggest mentors.</string>
+    <string name="help_mentor_selection_skip">Skip for now</string>
+    <string name="help_mentor_selection_quick">Show trending mentors</string>
+    <string name="help_mentor_selection_finish">Go to mentors</string>
+    <string name="help_mentor_selection_hint">Share your goals, skills to learn, or budget…</string>
+    <string name="help_mentor_selection_send">Send</string>
+    <string name="help_mentor_selection_input_error">Please enter a short message first.</string>
+</resources>

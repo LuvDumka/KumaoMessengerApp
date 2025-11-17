@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ShapeAppearanceOverlay.Material3.Corner.Full" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="Widget.Material3.Button.FilledTonal" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/md_theme_light_secondaryContainer</item>
+        <item name="android:textColor">@color/md_theme_light_onSurface</item>
+        <item name="cornerRadius">16dp</item>
+    </style>
+</resources>
